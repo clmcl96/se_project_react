@@ -7,7 +7,12 @@
 }
 
 .header__add-clothes-button {
-  margin-left: auto;
+  border: none;
+  margin: 0 20px 0 auto;
+}
+
+.header__add-clothes-button:hover {
+  cursor: pointer;
 }
 
 .header__user-container {
@@ -21,12 +26,6 @@
 
 .header__date {
   margin: 0;
-}
-
-.header__add-clothes-button {
-  border: none;
-
-  margin: 0 20px 0 auto;
 }
 
 .header__username {
