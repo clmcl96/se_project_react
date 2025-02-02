@@ -6,3 +6,8 @@
   gap: 21px;
   list-style-type: none;
 }
+
+.cards_text {
+  font-weight: 700;
+  font-size: 20px;
+}

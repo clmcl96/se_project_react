@@ -85,3 +85,11 @@
   margin-top: 32px;
   padding: 0;
 }
+
+.modal__title {
+  font-weight: 700;
+}
+
+.modal__form {
+  font-weight: 700;
+}

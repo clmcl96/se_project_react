@@ -9,6 +9,7 @@
 .header__add-clothes-button {
   border: none;
   margin: 0 20px 0 auto;
+  font-weight: 700;
 }
 
 .header__add-clothes-button:hover {
@@ -26,10 +27,12 @@
 
 .header__date {
   margin: 0;
+  font-weight: 700;
 }
 
 .header__username {
   margin: 0;
+  font-weight: 700;
 }
 
 .header__user-container {
