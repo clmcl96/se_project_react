@@ -84,6 +84,12 @@
   height: 36px;
   margin-top: 32px;
   padding: 0;
+  border: none;
+  color: transparent;
+}
+
+.modal__submit:hover {
+  cursor: pointer;
 }
 
 .modal__title {

@@ -6,7 +6,6 @@ export const getWeather = ({ latitude, longitude }, APIkey) => {
       return res.json();
     } else {
       return Priomise.reject(`Error: ${res.status}`);
-      //REPLACE THE ABOVE WITH A FUNCTION
     }
   });
 };

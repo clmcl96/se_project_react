@@ -65,6 +65,7 @@ function App() {
                 className="modal__input"
                 id="name"
                 placeholder="Name"
+                required
               />
             </label>
             <label htmlFor="imageUrl" className="modal__label">
@@ -74,10 +75,11 @@ function App() {
                 className="modal__input"
                 id="imageUrl"
                 placeholder="Image URL"
+                required
               />
             </label>
             <filedset className="modal__fieldset">
-              <legend className="modal__legend modal__label">
+              <legend className="modal__legend modal__label" required>
                 Select the weather type:
               </legend>
               <label htmlFor="hot" className="modal__radio-input">

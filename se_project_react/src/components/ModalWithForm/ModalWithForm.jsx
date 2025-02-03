@@ -1,5 +1,6 @@
 import "./ModalWithForm.css";
 import closebtn from "../../assets/closebtn.png";
+import activebtn from "../../assets/StateDefault.png";
 
 function ModalWithForm({
   children,
@@ -24,7 +25,7 @@ function ModalWithForm({
         <form className="modal__form">
           {children}
           <button type="submit" className="modal__submit">
-            {buttonText}
+            <img src={activebtn} className="modal__submit-image-active" />
           </button>
         </form>
       </div>

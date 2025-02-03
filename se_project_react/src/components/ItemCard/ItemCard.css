@@ -6,6 +6,10 @@
   justify-content: center;
 }
 
+.card:hover {
+  cursor: pointer;
+}
+
 .card__image {
   height: 325px;
   width: 100%;
