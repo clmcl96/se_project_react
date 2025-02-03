@@ -1,4 +1,4 @@
-import "./Weathercard.css";
+import "./WeatherCard.css";
 import cloudy from "../../assets/cloudy.png";
 import { weatherOptions, defaultWeatherOptions } from "../../utils/constants";
 
