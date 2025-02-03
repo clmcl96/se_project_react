@@ -1,5 +1,4 @@
 import "./WeatherCard.css";
-import cloudy from "../../assets/cloudy.png";
 import { weatherOptions, defaultWeatherOptions } from "../../utils/constants";
 
 function Weathercard({ weatherData }) {
@@ -27,5 +26,7 @@ function Weathercard({ weatherData }) {
     </section>
   );
 }
+
+//test
 
 export default Weathercard;
