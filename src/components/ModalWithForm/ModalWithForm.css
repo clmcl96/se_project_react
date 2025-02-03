@@ -12,7 +12,7 @@
   visibility: hidden;
 }
 
-.modal__opened {
+.modal_opened {
   visibility: visible;
 }
 
@@ -64,7 +64,7 @@
   border-top: none;
   border-left: none;
   border-right: none;
-  margin-top: 3px;
+  margin: 3px 0 24px;
 }
 
 .modal__label {
@@ -85,7 +85,9 @@
   margin-top: 32px;
   padding: 0;
   border: none;
-  color: transparent;
+  background-color: rgba(0, 0, 0, 1);
+  color: white;
+  border-radius: 4px;
 }
 
 .modal__submit:hover {
