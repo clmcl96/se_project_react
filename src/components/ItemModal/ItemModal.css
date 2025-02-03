@@ -15,6 +15,10 @@
   background-color: transparent;
 }
 
+.modal__close-image {
+  background-color: transparent;
+}
+
 .modal__caption {
   margin: 20px 0 12px 32px;
   font-size: 20px;
